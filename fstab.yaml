@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p56502-e1606347.adobeaemcloud.com/bin/franklin.delivery/giwai-adbe/my-sandbox-prod/main"
+    url: "https://author-p56502-e1606347.adobeaemcloud.com/bin/franklin.delivery/giwai-adbe/eds-content/main"
     type: "markup"
     suffix: ".html"
