@@ -214,5 +214,37 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "divider",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "icon",
+        "label": "Icon",
+        "description": "Icon character or emoji to display on the divider line (default: ⚡)",
+        "value": ""
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "No Icon (plain line)",
+            "value": "no-icon"
+          },
+          {
+            "name": "Thick",
+            "value": "thick"
+          },
+          {
+            "name": "Thin",
+            "value": "thin"
+          }
+        ]
+      }
+    ]
   }
 ]

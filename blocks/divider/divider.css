@@ -1,0 +1,48 @@
+.divider-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.divider {
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.divider hr {
+  border: 0;
+  border-top: solid 3px var(--divider-color, var(--dark-color, #505050));
+  margin: 0;
+  padding: 0;
+}
+
+.divider .divider-icon {
+  display: inline-block;
+  position: relative;
+  top: -1.7rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+  line-height: 1;
+  background-color: var(--background-color, #fff);
+  color: var(--divider-color, var(--dark-color, #505050));
+  user-select: none;
+}
+
+/* Variant: no-icon (plain line only) */
+.divider.no-icon .divider-icon {
+  display: none;
+}
+
+.divider.no-icon hr {
+  margin: 0 auto;
+}
+
+/* Variant: thick */
+.divider.thick hr {
+  border-top-width: 6px;
+}
+
+/* Variant: thin */
+.divider.thin hr {
+  border-top-width: 1px;
+}
